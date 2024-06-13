@@ -46,7 +46,7 @@ contract MyToken {
 }
 ```
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.18" (or another compatible version), and then click on the "Compile Token.sol" button.
-<br>
+<br><br>
 Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "MyToken" contract from the dropdown menu, and then click on the "Deploy" button.
-<br>
+<br><br>
 Once the contract is deployed, you can interact with it by calling the mint and burn functions. Click on the "MyToken" contract in the left-hand sidebar, and then click on the "mint" function to see the increase in the total supply by that number and increases the balance of the “sender” address by that amount you have passed as parameter. Click on the "burn" function to see the deduction in value from the total supplt and from the balance of the sender.
